@@ -1,0 +1,31 @@
+.Card {
+    background: rgba(207, 198, 198, 0.829);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    width: 300px;
+    display: block;
+    margin: 5px auto;
+    font-size: 20px;
+    color: rgb(6, 6, 48);
+    
+  }
+  
+  
+  @media screen and (min-width: 64rem) {
+    .Card {
+      float: left;
+      width: 220px;
+      margin-right: 18px;
+      margin-left: 18px;
+    }
+  }
+  @media screen and (min-width: 90rem) {
+    .Card {
+      display: inline-block;
+      width: 180px;
+    }
+  }
+  
