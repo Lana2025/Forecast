@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Findcity from './components/Findcity';
 import './App.css';
 import {Container, FormControl, Button} from 'react-bootstrap';
-import Findweather from './Findweather';
+import Findweather from './components/Findweather';
 import Sixdays from './components/Sixdays';
 
 
